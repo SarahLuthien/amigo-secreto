@@ -20,18 +20,25 @@
         <section class="secao__conteudo">
             <h2 class="secao__conteudo__titulo">Digite o nome dos seus amigos</h2>
             <div class="div__caixaDeTexto">
-                <input class="secao__conteudo__input" type="text" id="nome" placeholder="Digite o nome aqui..">
-                <button class="secao__conteudo__btn-adicionar" type="submit" id="adicionar">Adicionar</button>
-                <p id="erro" style="color: red;"></p>
+                <input class="secao__conteudo__input" type="text" id="input_nome" placeholder="Digite o nome aqui..">
+                <button  class="secao__conteudo__btn" type="submit" id="adicionar">Adicionar</button>
+                <button  class="secao__conteudo__btn" type="submit" id="limpar">Limpar</button>
+                <p id="mensagemErro" ></p>
             </div>
             <ul class="secao__conteudo__lista-nome" id="listaNomes"></ul>
-            <button class="secao__conteudo__btn-sortear" type="submit" id="sortear">SORTEAR</button>
-            <p id="resultado"></p>
+            <h3 id="resultado" ></h3>
+            <button  class="secao__conteudo__btn-sortear" type="submit" id="sortear">SORTEAR</button>  
         </section>
     </main> 
-    <footer>
-        <h3>Desenvolvido por Sarah Pires <a href="">Instagram</a> <a href="">Linkedin</a></h3>
+    <footer class="footer__connect">
+        <h4>Desenvolvido por Sara Pires.
+            <div class="footer__link">
+                <a href="">Instagram</a> 
+                <a href="">Linkedin</a>
+            </div>
+        </h4>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

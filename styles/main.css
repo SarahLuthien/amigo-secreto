@@ -7,9 +7,12 @@
 
 
 :root{
-    --cor-lilas-escuro:  #60328f;
+    --cor-lilas-escuro:  #8A2BE2;
     --cor-lilas-medio: #977cb5;
-    --cor-lilas-claro: #e165da;
+    --cor-lilas-claro: #E6E6FA;
+    --cor-roxo-orquidea: #EE82EE;
+    --cor-roxo-escuro: #54188d;
+    --cor-lavanda: #CCCCFF;
     --cor-sombra: rgba(0, 0, 0, 0.1);
     --cor-preto: #000;
     --cor-branca: #ffff;
@@ -17,7 +20,6 @@
 
 body{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;  
     align-items: center;
@@ -49,7 +51,7 @@ main{
     color: var(--cor-preto);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 200px; 
-    background: linear-gradient(to right, var(--cor-lilas-escuro), var(--cor-preto));
+    background: linear-gradient(to right, var(--cor-lilas-escuro), var(--cor-roxo-escuro));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -74,6 +76,7 @@ main{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.8em;
+    color: var(--cor-roxo-escuro);
 }
 
 .div__caixaDeTexto{
@@ -86,7 +89,7 @@ main{
     padding: 10px;
     width:500px;
     margin-bottom: 10px;
-    border: 2px solid var(--cor-lilas-medio); 
+    border: 2px solid var(--cor-lilas-escuro); 
     border-radius: 8px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     font-family: 'Roboto', sans-serif; 
@@ -99,35 +102,37 @@ main{
     outline: none; 
 }
 
-#erro {
-    color: var(--cor-lilas-claro);
-    font-size: 0.9em;
+#mensagemErro {
+    color: var(--cor-lilas-escuro);
+    font-size: 1em;
     margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 
-.secao__conteudo__btn-adicionar {
+.secao__conteudo__btn {
     padding: 10px 20px;
     color: var(--cor-branca);
-    background-color: var(--cor-lilas-escuro);
+    background-color: var(--cor-lilas-medio);
     border: none;
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.secao__conteudo__btn-adicionar:hover {
-    background-color: var(--cor-lilas-medio);
-    color: #000;
+.secao__conteudo__btn:hover {
+    background-color: var(--cor-lilas-escuro);
+    color: var(--cor-branca)
 }
 
 .secao__conteudo__btn-sortear{
     padding: 15px 30px;
-    color: var(--cor-preto);
-    background-color: var(--cor-lilas-medio);
-    border-style: solid 10px var(--cor-branca);
+    color: var(--cor-branca);
+    background-color: var(--cor-lilas-escuro);
+    border-style: solid 10px var(--cor-lilas-escuro);
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 10px;
@@ -138,8 +143,10 @@ main{
 }
 
 .secao__conteudo__btn-sortear:hover{
-    background-color: var(--cor-lilas-escuro);
-    color: var(--cor-branca);
+    background-color: var(--cor-lilas-medio);
+    border-style: solid 10px var(--cor-branca);
+    color: var(--cor-branca);    
+   
 }
 
 .secao__conteudo__btn-sortear:focus{
@@ -148,21 +155,66 @@ main{
     outline: none; 
 }
 
-ul {
+.secao__conteudo__lista-nome {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 20em;
+    gap: 0.8em;
+    flex-wrap: wrap; 
     list-style: none;
-    padding: 0;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    color: var(--cor-lilas-escuro);
 }
 
-ul li {
-    background: #f9f9f9;
+.secao__conteudo__lista-nome li {
+    background: var(--cor-branca);
     margin: 5px 0;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 2px solid var(--cor-lavanda);
+    border-radius: 4px; 
+    
+
 }
 
 #resultado {
-    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
     font-weight: bold;
+    color: var(--cor-lilas-escuro);
+}
+
+.footer__connect{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-lilas-medio);
+    padding: 1em 0 1em 0; 
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.footer__connect h4 {
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--cor-preto);
+    line-height: 24px;
+}
+
+.footer__link a{
+    color: inherit;
+}
+
+.footer__link a:hover{
     color: var(--cor-lilas-escuro);
 }
