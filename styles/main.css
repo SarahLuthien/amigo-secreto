@@ -131,7 +131,7 @@ main{
 .secao__conteudo__btn-sortear{
     padding: 15px 30px;
     color: var(--cor-branca);
-    background-color: var(--cor-lilas-escuro);
+    background-color: var(--cor-lilas-medio);
     border-style: solid 10px var(--cor-lilas-escuro);
     border-radius: 4px;
     cursor: pointer;
@@ -143,14 +143,14 @@ main{
 }
 
 .secao__conteudo__btn-sortear:hover{
-    background-color: var(--cor-lilas-medio);
+    background-color: var(--cor-lilas-escuro);
     border-style: solid 10px var(--cor-branca);
     color: var(--cor-branca);    
    
 }
 
 .secao__conteudo__btn-sortear:focus{
-    border-color: var(--cor-lilas-medio); 
+    border-color: var(--cor-lilas-escuro); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     outline: none; 
 }
