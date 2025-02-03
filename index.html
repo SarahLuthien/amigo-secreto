@@ -10,7 +10,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/media-queries.css">
 
     <script src="https://kit.fontawesome.com/fdb84319a0.js" crossorigin="anonymous"></script>
 
@@ -25,24 +27,28 @@
             <h2 class="secao__conteudo__titulo">Digite o nome dos seus amigos</h2>
             <div class="div__caixaDeTexto">
                 <input class="secao__conteudo__input" type="text" id="input_nome" placeholder="Digite o nome aqui..">
-                <button  class="secao__conteudo__btn" type="submit" id="adicionar">Adicionar</button>
-                <button  class="secao__conteudo__btn" type="submit" id="limpar">Limpar</button>
-                <p id="mensagemErro" ></p>
+                <div class="div_btn">
+                    <button  class="secao__conteudo__btn" type="submit" id="adicionar">Adicionar</button>
+                    <button  class="secao__conteudo__btn" type="submit" id="limpar">Limpar</button>
+                </div>
             </div>
+            <p id="mensagemErro" ></p>
             <ul class="secao__conteudo__lista-nome" id="listaNomes"></ul>
             <h3 id="resultado" ></h3>
             <button  class="secao__conteudo__btn-sortear" type="submit" id="sortear">SORTEAR</button>  
         </section>
+
+        <footer class="footer__connect">
+            <h4>Desenvolvido por Sara Pires.
+                <div class="footer__link">
+                    
+                    <a href="https://www.instagram.com/sarapires.dev/" target="_blank" rel="noopener noreferrer" >Instagram <i class="fa-brands fa-instagram" style="color: #8a2be2;"></i></a>
+                    <a href="https://www.linkedin.com/in/sara-pires-dev" target="_blank" rel="noopener noreferrer" >Linkedin <i class="fa-brands fa-linkedin" style="color: #8a2be2;"></i></a>
+                </div>
+            </h4>
+        </footer>
     </main> 
-    <footer class="footer__connect">
-        <h4>Desenvolvido por Sara Pires.
-            <div class="footer__link">
-                
-                <a href="" >Instagram <i class="fa-brands fa-instagram" style="color: #8a2be2;"></i></a>
-                <a href="">Linkedin <i class="fa-brands fa-linkedin" style="color: #8a2be2;"></i></a>
-            </div>
-        </h4>
-    </footer>
+    
     <script src="app.js"></script>
 </body>
 
