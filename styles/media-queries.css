@@ -123,6 +123,17 @@
 
 @media screen and (max-width: 575px){
 
+    .secao__apresentacao{
+        text-align: center;
+    }
+
+    .secao__apresentacao__titulo{ 
+        font-size: 2.1rem;
+        padding: 0 0 0 1rem;
+        margin-top: 5rem;    
+    }
+
+
     .secao__conteudo__titulo{
         padding-top: 5rem;
         font-size: 1.4rem;
@@ -155,6 +166,16 @@
         text-decoration: none;
         color: var(--cor-preto);
         line-height: 24px;
+    }
+
+
+    @media screen and (max-width: 575px){
+
+        .secao__conteudo__titulo{
+            padding-top: 5rem;
+            font-size: 1.4rem;
+        }
+
     }
 
 }
