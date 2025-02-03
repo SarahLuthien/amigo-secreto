@@ -11,7 +11,7 @@ Este projeto é responsivo, ou seja, pode ser acessado em diferentes telas.
 
 ## Projeto
 * Computador <br><br>
-[![Captura de tela](https://i.postimg.cc/VLsXyMmC/Captura-de-tela-2025-02-03-093405.png)](https://postimg.cc/PNcCYCLX)
+[![Captura-de-tela-2025-02-03-091910.png](https://i.postimg.cc/jqmfkjZH/Captura-de-tela-2025-02-03-091910.png)](https://postimg.cc/XXKXrnMq)
 
 * Mobile <br><br>
 [![Captura-de-tela-2025-02-03-093343.png](https://i.postimg.cc/7LDd3mSR/Captura-de-tela-2025-02-03-093343.png)](https://postimg.cc/pmGsxQGQ)
