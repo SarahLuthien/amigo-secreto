@@ -11,14 +11,14 @@ Este projeto é responsivo, ou seja, pode ser acessado em diferentes telas.
 
 ## Projeto
 * Computador <br><br>
-[![Captura-de-tela-2025-02-03-091910.png](https://i.postimg.cc/jqmfkjZH/Captura-de-tela-2025-02-03-091910.png)](https://postimg.cc/XXKXrnMq)
+![Captura-de-tela-versão-PC](assets\Captura de tela 2025-02-03 093343.png)
 
 * Mobile <br><br>
-[![Captura-de-tela-2025-02-03-093343.png](https://i.postimg.cc/7LDd3mSR/Captura-de-tela-2025-02-03-093343.png)](https://postimg.cc/pmGsxQGQ)
+![Captura-de-tela-versão-PC](assets\Captura de tela 2025-02-03 093405.png)
 
 <div>
 <p>Que tal realizar agora mesmo um evento de Amigo Secreto? </p>
-<p>:globe_with_meridians: Deploy:</p><a href="https://amigo-secreto-r7s4po6yn-sara-roberta-pires-s-projects.vercel.app/">Clique Aqui!</a>
+<p>:globe_with_meridians: Deploy:</p><a href="https://amigo-secreto-ten-ochre.vercel.app/">Clique Aqui!</a>
 <br>
 <br>
 <p>Utilizei ferramentas de gestão e auxílio para este projeto: Trello e o Notion. </p>
