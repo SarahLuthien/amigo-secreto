@@ -11,10 +11,10 @@ Este projeto é responsivo, ou seja, pode ser acessado em diferentes telas.
 
 ## Projeto
 * Computador <br><br>
-![Captura-de-tela-versão-PC](assets\Captura de tela 2025-02-03 093343.png)
+![Captura-de-tela-versão-PC](assets/Captura%20de%20tela%202025-02-03%20093405.png)
 
-* Mobile <br><br>
-![Captura-de-tela-versão-PC](assets\Captura de tela 2025-02-03 093405.png)
+* Mobile <br><br>   
+![Captura-de-tela-versão-PC](assets/Captura%20de%20tela%202025-02-03%20093343.png)
 
 <div>
 <p>Que tal realizar agora mesmo um evento de Amigo Secreto? </p>
